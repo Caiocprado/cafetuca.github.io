@@ -1,0 +1,80 @@
+/* Reset e estilos globais */
+* {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.logo {
+    width: 80px; 
+    height: 80px;
+    margin-right: 1rem; 
+}
+
+.mp ul li a:hover {
+    color: #fc502a;
+}
+
+ul li a {
+    color: rgb(97, 50, 47);
+}
+
+.icon {
+    width: 30px; 
+    height: 30px;
+}
+
+.logors {
+    display: flex;
+    align-items: center;
+    gap: 1rem; 
+}
+
+/* Estilo da lista do cardápio */
+.listaCardapio {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens se ajustem em várias linhas */
+    justify-content: center; /* Centraliza os itens na tela */
+    gap: 20px; /* Espaço entre os itens */
+    padding: 20px; /* Espaçamento interno */
+    list-style: none; /* Remove os marcadores da lista */
+}
+
+/* Estilo dos itens do cardápio */
+.listaCardapio li {
+    background: #fff; /* Fundo branco */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding: 10px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+    max-width: 200px; /* Limita a largura dos itens */
+    transition: transform 0.3s ease; /* Animação suave ao passar o mouse */
+}
+
+.listaCardapio li:hover {
+    transform: scale(1.05); /* Aumenta levemente o tamanho ao passar o mouse */
+}
+
+/* Estilo das imagens dos produtos */
+.listaCardapio li img {
+    width: 100%; /* Imagem ocupa toda a largura do container */
+    height: auto; /* Mantém a proporção original */
+    border-radius: 8px; /* Bordas arredondadas como o container */
+    margin-bottom: 10px; /* Espaço entre a imagem e o texto */
+}
+
+/* Estilo do texto do produto */
+.listaCardapio li span {
+    font-size: 1rem; /* Tamanho de fonte legível */
+    font-weight: bold; /* Texto em negrito */
+    color: #555; /* Cor suave */
+}
+
